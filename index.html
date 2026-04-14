@@ -156,7 +156,7 @@
   <section class="logo-section">
     <div class="logo-glow">
       <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
-        <path d="M40 10 L60 70 M40 10 L20 70 M26 50 H54" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="40" y="55" text-anchor="middle" font-size="50" font-family="Preahvihear, sans-serif" stroke="#a78bfa" stroke-width="2" fill="none">CW</text>
       </svg>
     </div>
   </section>
@@ -164,92 +164,109 @@
   <!-- ===== FEATURED PROJECTS ===== -->
   <section class="projects-section">
     <div class="container">
+      <div class="projects-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="carousel-controls">
+          <button class="carousel-arrow prev" aria-label="Previous project">‹</button>
+          <button class="carousel-arrow next" aria-label="Next project">›</button>
+        </div>
+      </div>
 
-      <!-- Project 1 -->
-      <div class="project-row">
-        <div class="project-info">
-          <span class="featured-label">Featured Project</span>
-          <h2 class="project-title">SyntaxWear – Tênis e Sneakers Online</h2>
-          <p class="project-desc">
-            A SyntaxWear é uma interface moderna de e-commerce voltada para o
-            mercado de calçados, especificamente tênis e sneakers. O projeto focou em
-            uma experiência de usuário fluida, responsiva e visualmente impactante,
-            destacando produtos exclusivos e coleções urbanas.
-          </p>
-          <div class="project-tags">
-            <span class="tag">HTML</span>
-            <span class="tag">CSS</span>
-            <span class="tag">JavaScript</span>
+      <div class="projects-carousel">
+
+        <!-- Project 1 -->
+        <div class="project-row">
+          <div class="project-info">
+            <h2 class="project-title">SyntaxWear – Tênis e Sneakers Online</h2>
+            <p class="project-desc">
+              A SyntaxWear é uma interface moderna de e-commerce voltada para o
+              mercado de calçados, especificamente tênis e sneakers. O projeto focou em
+              uma experiência de usuário fluida, responsiva e visualmente impactante,
+              destacando produtos exclusivos e coleções urbanas.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/carolweissmann" target="_blank" rel="noopener noreferrer" class="icon-link" title="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+              <a href="#" class="icon-link" title="Live demo">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
           </div>
-          <div class="project-links">
-            <a href="#" class="icon-link" title="GitHub">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-            </a>
-            <a href="#" class="icon-link" title="Live demo">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            </a>
+          <div class="project-preview">
+            <div class="project-mockup">
+              <div class="mockup-bar"><span></span><span></span><span></span></div>
+              <div class="mockup-content sneakers">
+                <div class="mockup-social-header">
+                  <div class="social-dots">
+                    <span></span><span class="active"></span><span></span>
+                  </div>
+                  <span class="social-username">@syntaxwear</span>
+                </div>
+                <img src="./image/Syntax.png" alt="SyntaxWear screenshot" class="mockup-screenshot" />
+                <div class="mockup-social-footer">
+                  <span>⭐ 7.8k</span>
+                  <span>💬 246</span>
+                  <span>🔗 Live demo</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="project-preview">
-          <div class="project-mockup">
-            <div class="mockup-bar"><span></span><span></span><span></span></div>
-            <div class="mockup-content sneakers">
-              <div class="mockup-hero-text">SyntaxWear</div>
-              <div class="mockup-cards">
-                <div class="mockup-card"></div>
-                <div class="mockup-card"></div>
-                <div class="mockup-card"></div>
+
+        <!-- Project 2 -->
+        <div class="project-row">
+          <div class="project-info">
+            
+            <h2 class="project-title">Cipo</h2>
+            <p class="project-desc">
+              O CIPO é uma interface digital desenvolvida para representar
+              institucionalmente o projeto, com foco em clareza, organização e
+              credibilidade. O site prioriza uma experiência de navegação fluida,
+              responsiva e acessível, apresentando conteúdos de forma
+              estruturada e intuitiva.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Figma</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">GitHub</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/carolweissmann" target="_blank" rel="noopener noreferrer" class="icon-link" title="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+              <a href="#" class="icon-link" title="Live demo">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-preview">
+            <div class="project-mockup cipo-mock">
+              <div class="mockup-bar"><span></span><span></span><span></span></div>
+              <div class="mockup-content cipo">
+                <div class="mockup-social-header">
+                  <div class="social-dots">
+                    <span></span><span class="active"></span><span></span>
+                  </div>
+                  <span class="social-username">@cipo.design</span>
+                </div>
+                <img src="./image/Cipo.png" alt="Cipo screenshot" class="mockup-screenshot" />
+                <div class="mockup-social-footer">
+                  <span>📌 Institucional</span>
+                  <span>📱 Responsivo</span>
+                  <span>🔗 Ver mais</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Project 2 -->
-      <div class="project-row reverse">
-        <div class="project-preview">
-          <div class="project-mockup cipo-mock">
-            <div class="mockup-bar"><span></span><span></span><span></span></div>
-            <div class="mockup-content cipo">
-              <div class="cipo-sidebar">
-                <div class="cipo-logo">CIPO</div>
-                <div class="cipo-stat">+60</div>
-                <div class="cipo-stat">+200</div>
-                <div class="cipo-stat">+600</div>
-              </div>
-              <div class="cipo-main">
-                <div class="cipo-title-block">Pesquisa clínica em constância de excelência</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="project-info">
-          <span class="featured-label">Featured Project</span>
-          <h2 class="project-title">Cipo</h2>
-          <p class="project-desc">
-            O CIPO é uma interface digital desenvolvida para representar
-            institucionalmente o projeto, com foco em clareza, organização e
-            credibilidade. O site prioriza uma experiência de navegação fluida,
-            responsiva e acessível, apresentando conteúdos de forma
-            estruturada e intuitiva.
-          </p>
-          <div class="project-tags">
-            <span class="tag">Figma</span>
-            <span class="tag">HTML</span>
-            <span class="tag">CSS</span>
-            <span class="tag">GitHub</span>
-          </div>
-          <div class="project-links">
-            <a href="#" class="icon-link" title="GitHub">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-            </a>
-            <a href="#" class="icon-link" title="Live demo">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            </a>
-          </div>
-        </div>
-      </div>
-
     </div>
   </section>
 

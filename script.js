@@ -73,3 +73,19 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+
+const carousel = document.querySelector('.projects-carousel');
+const prevBtn = document.querySelector('.carousel-arrow.prev');
+const nextBtn = document.querySelector('.carousel-arrow.next');
+
+if (carousel && prevBtn && nextBtn) {
+  const scrollStep = () => Math.round(carousel.clientWidth * 0.85);
+
+  prevBtn.addEventListener('click', () => {
+    carousel.scrollBy({ left: -scrollStep(), behavior: 'smooth' });
+  });
+
+  nextBtn.addEventListener('click', () => {
+    carousel.scrollBy({ left: scrollStep(), behavior: 'smooth' });
+  });
+}
