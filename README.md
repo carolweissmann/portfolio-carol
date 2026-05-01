@@ -100,10 +100,6 @@ I'm currently looking to join a cross-functional team that values improving peop
 - **Instagram**: [Your Instagram]
 - **Behance**: [Your Behance]
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ---
 
 *Built with ❤️ by Carol Weissmann*</content>
